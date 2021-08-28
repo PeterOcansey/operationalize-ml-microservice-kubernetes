@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build . --tag=microapp
+docker build . --tag=ocanseypeter/uda_microserviceapp
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 microapp
+docker run -p 8000:80 ocanseypeter/uda_microserviceapp
